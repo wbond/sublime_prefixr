@@ -1,0 +1,50 @@
+[
+    {
+        "caption": "Preferences: Prefixr Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/Prefixr/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: Prefixr Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/Prefixr/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: Prefixr Key Bindings – Default",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/Prefixr/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Preferences: Prefixr Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: Prefixr Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: Prefixr Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    }
+]
