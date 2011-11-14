@@ -27,7 +27,7 @@ class PrefixrCommand(sublime_plugin.TextCommand):
                 sels.add(sel)
             self.view.run_command("expand_selection", {"to": "brackets"})
 
-        # We start one thread per selection so we lock up the interface
+        # We start one thread per selection so we don't lock up the interface
         # while waiting for the response from the API
         threads = []
         for sel in sels:
