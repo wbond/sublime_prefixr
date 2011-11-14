@@ -13,7 +13,7 @@ class PrefixrCommand(sublime_plugin.TextCommand):
         braces = False
         sels = self.view.sel()
         for sel in sels:
-            if self.view.substr(sels[0]).find('{') != -1:
+            if self.view.substr(sel).find('{') != -1:
                 braces = True
 
         # Expand selection to braces, unfortunately this can't use the
