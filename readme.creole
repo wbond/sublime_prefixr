@@ -1,3 +1,9 @@
+= Discontinued Project
+
+Unfortunately as of 2014, the API for prefixr.com no longer works, which
+means the package no longer functions. The source code is maintained here
+for learning purposes only.
+
 = Sublime Prefixr
 
 A plugin that runs CSS through the [[http://prefixr.com|Prefixr]] API for
